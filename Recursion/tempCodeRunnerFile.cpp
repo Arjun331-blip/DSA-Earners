@@ -1,0 +1,2 @@
+
+void deeksha(int n){

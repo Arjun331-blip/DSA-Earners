@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int n;
+    cout << "enter a number : ";
+    cin >> n;
+    int a = 1;
+    for(int i=1;i<=n;i++){
+        int b = 1;
+        for(int j=1;j<=i;j++){
+            cout << b << " ";
+            b = b+2;
+        }
+        cout << endl;
+    }
+    return 0;
+}
